@@ -1,0 +1,50 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/main/main",
+			"style": {
+				"navigationBarTitleText": "Homepage"	
+			}
+		},
+		{
+			"path": "pages/faceChange/faceChange",
+			"style": {
+				"navigationBarTitleText": "AI Face Swap",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/faceVer/faceVer",
+			"style": {
+				"navigationBarTitleText": "Facial Recognition",
+				"enablePullDownRefresh":true
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"backgroundColor": "#2e538f",
+		"Color": "#c1c1c1",
+		"selectedColor": "#ffffff",
+		"list": [
+			
+			{
+				"pagePath":"pages/faceChange/faceChange",
+				"text": "AI Face Swap"
+				
+			},
+			{
+				"pagePath":"pages/faceVer/faceVer",
+				"text": "Facial Recognition"
+			}
+		]
+	}
+}
+
+
